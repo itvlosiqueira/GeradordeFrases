@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #73294C;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main{
+    background-color: #F2A0C6;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 220px;
+    height: 200px;
+    width: 400px    ;
+    border-radius: 5px;
+}
+
+#divider{
+    margin-top: 80px;
+    width: 90%;
+}
+
+div img:hover{
+    cursor: pointer;
+}
+
+div img{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    position: relative;
+}
+
+#frases{
+    margin-top: 20px;
+}
